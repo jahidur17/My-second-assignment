@@ -35,15 +35,41 @@ img {
   color: #252432;
   font-weight: 700;
 }
-
 /* banner section */
 
+.jahid-3 {
+  display: flex;
+  gap: 100px;
+  /* background-color: darkseagreen; */
+  margin-top: 200px;
+  margin-bottom: 200;
+}
+.main-image-container {
+  position: relative;
+  width: 540px;
+  height: auto;
+ 
+}
+.main-image-container img .main {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  
+}
+.main-image-container img.top-right {
+  
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -125px;
+  right:-125px ;
+}
 .flower {
   display: flex;
   align-items: flex-end;
   padding: 0px;
   justify-content: center;
-  /* background-color: royalblue; */
   margin-top: 100px;
   margin-bottom: 120px;
 }
@@ -75,19 +101,16 @@ img {
   flex: 1;
 }
 .card-shop {
-  color: #000000;
+  color: #8987a1;
   font-size: 22px;
   width: 888px;
   height: 54px;
 }
-
 .deals {
   padding-left: 200px;
   margin-bottom: 50px;
 }
-
 .jahid-2 {
-  /* background-color: burlywood; */
   display: flex;
 }
 .jaker {
@@ -98,9 +121,8 @@ img {
   width: 366px;
   height: 206px;
   margin-bottom: 10px;
- overflow: hidden;
- border-radius: 20px;
-  
+  overflow: hidden;
+  border-radius: 20px;
 }
 .text-overlay {
   position: absolute;
@@ -155,7 +177,7 @@ img {
   padding: 0 355px;
 }
 .card-paragraph {
-  color: #000000;
+  color: #8987a1;
   font-size: 22px;
   width: 570px;
   display: flex;
@@ -217,7 +239,7 @@ img {
   display: flex;
   width: 1148px;
   height: 248px;
-  margin-left: 210px;
+  margin-left: 100px;
   margin-top: 50px;
   padding-top: 10px;
   margin-bottom: 10px;
@@ -303,12 +325,5 @@ img {
     width: 270px;
     height: 484px;
   }
-  /* .Subscribe {
-    height:100%;
-    width: 100%;
-    padding-top: 100px;
-    text-align: center;
-    margin-top: 60px;
-    background-image: url(../assets/news-letter-bg.png);
-  } */
+  
 }
