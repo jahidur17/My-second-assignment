@@ -4,9 +4,9 @@
   margin: 0;
   padding: 0;
 }
-/* img {
+img {
   max-width: 100%;
-} */
+}
 .container {
   max-width: 1280px;
   margin: auto;
@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .navigation ul {
   display: flex;
@@ -42,33 +43,206 @@
   align-items: flex-end;
   padding: 0px;
   justify-content: center;
-  background-color: royalblue;
+  /* background-color: royalblue; */
+  margin-top: 100px;
+  margin-bottom: 120px;
 }
 .content-left h1 {
   font-size: 65px;
   font-weight: 700;
-  line-height: 89px;
 }
-.always{
-    color: #000000;
-     font-size: 65px;
-    font-weight: bold;
+.always {
+  color: #000000;
+  font-size: 65px;
+  font-weight: bold;
 }
-.fresh{
-    color: #E95A08;
-    font-size: 65px;
-    font-weight: bold;
+.fresh {
+  color: #e95a08;
+  font-size: 65px;
+  font-weight: bold;
 }
-.paragraph{
-    color: #000000;
-    font-size: 22px;
-    /* font-weight: 500; */
-    width: 570px;
-   
+.paragraph {
+  color: #000000;
+  font-size: 22px;
+  width: 570px;
+}
+.content-left {
+  flex: 1;
+}
+.flower-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
+/* card section */
 
-.content-left{
-    margin-bottom: ;
-   
+.plant {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.card {
+  padding: 0 355px;
+}
+.card-paragraph {
+  color: #000000;
+  font-size: 22px;
+  width: 570px;
+  display: flex;
+  margin-bottom: 49px;
+}
+.card-container {
+  width: 270px;
+  height: 484px;
+}
+.card-box {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 60px;
+}
+.blossom {
+  margin: auto 65px;
+}
+.lily {
+  color: #111111;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #e95a08;
+  color: white;
+  width: 270px;
+  height: 50px;
+  padding: 26px 50px 26px 50px;
+  border: none;
+}
+
+.holder {
+  width: 644px;
+  height: 50px;
+  padding-left: 15px;
+}
+.bunch {
+  font-weight: bold;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.btn-holder {
+  padding-top: 17px;
+  height: 50px;
+
+  margin-left: -9px;
+}
+.Subscribe {
+  background-image: url(../assets/news-letter-bg.png);
+  height: 533px;
+  width: 100%;
+  padding-top: 200px;
+  text-align: center;
+}
+.jahid {
+  display: flex;
+  width: 1148px;
+  height: 248px;
+  margin-left: 210px;
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-card {
+  width: 359px;
+  height: 179px;
+  gap: 16px;
+  margin-top: 30px;
+}
+.anchor {
+  text-decoration: none;
+  color: #8987a1;
+}
+.shop-para {
+  width: 359px;
+  height: 81px;
+  margin-top: 10px;
+}
+.contuct-us ul li {
+  width: 85px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  padding-left: 100px;
+}
+.help-center ul li {
+  width: 85px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  padding-left: 200px;
+}
+.facebook {
+  position: static;
+  width: 450px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  /* padding: 0px; */
+  /* padding-right: 94px 0px; */
+}
+
+/* responsive of mobile */
+@media (max-width: 768px) {
+  .list-item {
+    display: none;
+  }
+
+  .flower {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .flower-right {
+    margin-bottom: 20px;
+  }
+  .card-box {
+    display: grid;
+    /* gap: 20px; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .paragraph {
+    margin-bottom: 49px;
+  }
+
+  .container {
+    max-width: 768px;
+    margin: auto 22px;
+  }
+  .card {
+    padding: 0 50px;
+  }
+  .card-container {
+    width: 270px;
+    height: 484px;
+  }
+  /* .Subscribe {
+    height:100%;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 60px;
+    background-image: url(../assets/news-letter-bg.png);
+  } */
 }
