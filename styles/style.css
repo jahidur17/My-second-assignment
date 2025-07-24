@@ -48,22 +48,19 @@ img {
   position: relative;
   width: 540px;
   height: auto;
- 
 }
 .main-image-container img .main {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
-  
 }
 .main-image-container img.top-right {
-  
   position: absolute;
   width: 286px;
   height: 286px;
   top: -125px;
-  right:-125px ;
+  right: -125px;
 }
 .flower {
   display: flex;
@@ -315,8 +312,9 @@ img {
   }
 
   .container {
-    max-width: 768px;
-    margin: auto 22px;
+    max-width: auto;
+    padding: 5px;
+    margin: a;
   }
   .card {
     padding: 0 50px;
@@ -325,5 +323,40 @@ img {
     width: 270px;
     height: 484px;
   }
-  
+  .main-image-container img .main {
+    max-width: 100%;
+    height: auto;
+    margin: 0 400px;
+  }
+  .jahid-3 {
+    display: flex;
+    text-decoration: column;
+  }
+  .jaker {
+    margin-top: 50px;
+  }
+  .jahid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 50px;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 50px;
+  }
+  .jahid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .help-center ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 500px;
+  }
 }
